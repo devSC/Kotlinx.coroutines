@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0718427-7e0f-4aeb-9f97-da069d7f8a18" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,10 +51,10 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="252">
+              <caret line="278" column="22" lean-forward="true" selection-start-line="278" selection-start-column="22" selection-end-line="278" selection-end-column="22" />
               <folding>
-                <element signature="e#0#90#0" expanded="true" />
+                <element signature="e#0#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -641,12 +642,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529677499270</updated>
       <workItem from="1529677500701" duration="1813000" />
-      <workItem from="1529679336531" duration="757000" />
+      <workItem from="1529679336531" duration="7467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2570000" />
+    <option name="totallyTimeSpent" value="9280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
@@ -665,7 +666,7 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.13876967" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.13876967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -704,7 +705,7 @@
         <state relative-caret-position="105">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#0#90#0" expanded="true" />
+            <element signature="e#0#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,12 +717,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.23.3/4d54f4a9daf36ef72c7ad72a576f9503a803b2aa/kotlinx-coroutines-core-0.23.3-sources.jar!/kotlinx/coroutines/experimental/Job.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="248" column="23" selection-start-line="248" selection-start-column="23" selection-end-line="248" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="278" column="22" lean-forward="true" selection-start-line="278" selection-start-column="22" selection-end-line="278" selection-end-column="22" />
           <folding>
-            <element signature="e#0#90#0" expanded="true" />
+            <element signature="e#0#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
