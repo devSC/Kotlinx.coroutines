@@ -1,8 +1,5 @@
 import kotlinx.coroutines.experimental.*
-import kotlinx.coroutines.experimental.channels.Channel
-import kotlinx.coroutines.experimental.channels.ReceiveChannel
-import kotlinx.coroutines.experimental.channels.consumeEach
-import kotlinx.coroutines.experimental.channels.produce
+import kotlinx.coroutines.experimental.channels.*
 import kotlin.concurrent.thread
 import kotlin.system.measureTimeMillis
 
@@ -283,4 +280,25 @@ fun main(args: Array<String>) = runBlocking<Unit> {
     repeat(5) { launchProcessor(it, producer) }
     delay(1950)
     producer.cancel() // cancel producer coroutine and thus kill them all
+
+    //actor
+    val counter = counterActor()
+//    massiveRun(CommonPool) {
+//
+//    }
+
+}
+
+sealed class CounterMsg
+object IncCounter: CounterMsg() //one way message to increment counter
+class GetCounter(val response: CompletableDeferred<Int>): CounterMsg() //a request with reply
+
+fun counterActor() = actor<CounterMsg> {
+    var counter = 0
+    for (msg in channel) {
+        when (msg) {
+            is IncCounter -> counter++
+            is GetCounter -> msg.response.complete(counter)
+        }
+    }
 }
